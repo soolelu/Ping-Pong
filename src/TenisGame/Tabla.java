@@ -208,36 +208,36 @@ public class Tabla extends javax.swing.JFrame {
     }//GEN-LAST:event_jTable2MouseClicked
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        jButton3.setVisible(false);
-        jButton4.setVisible(false);
-        jButton5.setVisible(false);
+        //jButton3.setVisible(false);
+        //jButton4.setVisible(false);
+        //jButton5.setVisible(false);
         puntos.idioma = new Aleman();
 
         imprimirTabla(puntos.ScoreP1, puntos.ScoreP2, puntos.score());
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        jButton3.setVisible(false);
-        jButton4.setVisible(false);
-        jButton7.setVisible(false);
+        //jButton3.setVisible(false);
+        //jButton4.setVisible(false);
+        //jButton7.setVisible(false);
         puntos.idioma = new Frances();
 
         imprimirTabla(puntos.ScoreP1, puntos.ScoreP2, puntos.score());
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        jButton3.setVisible(false);
-        jButton5.setVisible(false);
-        jButton7.setVisible(false);
+        //jButton3.setVisible(false);
+        //jButton5.setVisible(false);
+        //jButton7.setVisible(false);
         puntos.idioma = new Ingles();
 
         imprimirTabla(puntos.ScoreP1, puntos.ScoreP2, puntos.score());
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        jButton4.setVisible(false);
-        jButton5.setVisible(false);
-        jButton7.setVisible(false);
+        //jButton4.setVisible(false);
+        //jButton5.setVisible(false);
+        //jButton7.setVisible(false);
         puntos.idioma = new Espanol();
 
         imprimirTabla(puntos.ScoreP1, puntos.ScoreP2, puntos.score());
