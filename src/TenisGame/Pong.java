@@ -199,4 +199,12 @@ public class Pong extends JFrame implements KeyListener {
     @Override
     public void keyTyped(KeyEvent e){  
     }
+    
+    
+    @Override
+    public void update(Graphics g) {
+        if (puntos.ganador()==true)
+            pelota.veloX=0;
+            pelota.veloY=0;  
+     }
 }
